@@ -37,3 +37,10 @@
 
 - an absolute path always begins with '/'.
 - an relative path doesn't begin with a '/'.
+
+# help command
+--------------------
+- whatis <command>
+- <command> --help
+- man <command>
+
