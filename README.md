@@ -44,3 +44,27 @@
 - <command> --help
 - man <command>
 
+
+# stat command:
+------------------------
+- stat <file-name> or <directory name>: it will display when was the last time it was accessed, modified and read.
+
+
+
+# du and df commands
+----------------------------
+du(disk usage):
+ - it displays the disk space usage of current directory. you can use -h to read it in human readable format.
+    : -h (option): human readable
+    : -s :summarize
+    : -c :total
+    : -x : stay on one file system
+
+du calculates and summarizes disk usage for files and directories within a filesystem.
+df shows the amount of disk space used and available for entire filesystems, including mounted partitions.
+
+
+"$@" - treats each argument separately
+"$*" - treats all arguments as a single string
+
+
