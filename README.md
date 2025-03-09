@@ -67,4 +67,6 @@ df shows the amount of disk space used and available for entire filesystems, inc
 "$@" - treats each argument separately
 "$*" - treats all arguments as a single string
 
+free -m command will print the memory status on screen
+
 

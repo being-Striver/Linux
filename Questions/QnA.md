@@ -73,4 +73,21 @@
 - yum install httpd
 - yum allows the users to install, update, remove or searching a software package.
 
-#
+#Remove package "httpd" from your machine
+- yum remove httpd
+
+#List all the files under "/etc" directory which are modified in last 30 days ?
+- find /etc/* -type -f -mtime +30 delete
+
+#Print the count (# of times, root keyword found) by performing grep "root" keyword from "/var/log/dnf.log" file ?
+- grep -c "root" "/var/log/dnf.log"
+
+#Replace the "Test" word with "Hello" and update the same file using suitable command ?
+- sed -i 's|test|hello|g' touch.txt
+- sed means stream editor.
+
+#Print Second Column of top 100 rows from '/var/log/dnf.log' file ?
+-awk '{print $2}' /var/log/dnf.log | head -n 100
+
+#Print second and third column from '/var/log/dnf.log' file , print only for top 50 rows ?
+- awk '{print $2, $3}' /var/log/dnf.log | head -n 50
